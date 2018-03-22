@@ -1,0 +1,74 @@
+body{
+  font-family: 'Mina', cursive;
+  background:rgba(241,141,231,0.18);
+}
+h1,h2,h3,h4,h5,h6{
+  color:purple;
+}
+.contenedor{
+  width: 100%;
+  max-width: 1500px;
+  min-width: 300px;
+}
+.quien-soy{
+  text-align: left;
+  margin-bottom: 5%;
+  width: 30%;
+  font-size: 16;
+  font-style:italic;
+  padding: 0%;
+}
+.informacionpersonal  span{
+  font-weight: bold;
+}
+.informacionpersonal{
+  font-style: italic;
+  margin-bottom: 5%;
+  background-color: rgb(203, 93, 219);
+  box-shadow: -5px 5px #3f1e55;
+  border-radius: 5px;
+  width: 30%;
+  float:left;
+}
+.formacion{
+  position: absolute;
+  top:10px;
+  right:0;
+  background-color: rgb(203, 93, 219);
+  float:right;
+  width: 67%;
+  box-shadow: -5px 5px #3f1e55;
+  border-radius: 5px;
+  box-sizing: content-box;
+
+}
+.experiencia{
+  position: absolute;
+  top:450px;
+  right:0;
+  background-color: rgb(203, 93, 219);
+  width: 67%;
+  float:right;
+  box-shadow: -5px 5px #3f1e55;
+  border-radius: 5px;
+}
+.portfolio{
+  text-align: center;
+  clear:both;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  background-color: rgb(203, 93, 219);
+  box-shadow: -5px 5px #3f1e55;
+  border-radius: 5px;
+  height: 150px;
+}
+.portfolio li{
+  width: 10%;
+  float: left;
+  list-style: none;
+}
+.imagenPorfolio{
+  width: 80px;
+  height: 80px;
+  align-items: center;
+}
